@@ -36,8 +36,8 @@ function strCount(x, y) {
 ```
 ##Experience
 ---
-**My first progect:** [Diplom](https://vlad-dzhiga.github.io/Diplom) (In this project, I used basic knowledge of HTML and CSS)
-**My second progect:** [Shelter](https://rolling-scopes-school.github.io/vlad-dzhiga-JSFE2022Q1/shelter/) (In this project, I used basic knowledge of HTML and CSS)
+* **My first progect:** [Diplom](https://vlad-dzhiga.github.io/Diplom) (In this project, I used basic knowledge of HTML and CSS)
+* **My second progect:** [Shelter](https://rolling-scopes-school.github.io/vlad-dzhiga-JSFE2022Q1/shelter/) (In this project, I used basic knowledge of HTML and CSS)
 
 ##Education
 ---
