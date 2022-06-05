@@ -18,3 +18,34 @@ We all see ourselves as ideal, so write about communication skills, responsibili
 * CSS
 * JavaScript
 * Git (remote service GitHub)
+##Code Example
+---
+```
+function strCount(x, y) {
+  let result = 0;
+  if (typeof x != "string" || typeof y != "string") {
+    return result;
+  }
+  for (let index = 0; index < x.length; index++) {
+    if (x[index] === y) {
+      result++;
+    }
+  }
+  return result;
+}
+```
+##Experience
+---
+**My first progect:** [Diplom](https://vlad-dzhiga.github.io/Diplom) (In this project, I used basic knowledge of HTML and CSS)
+**My second progect:** [Shelter](https://rolling-scopes-school.github.io/vlad-dzhiga-JSFE2022Q1/shelter/) (In this project, I used basic knowledge of HTML and CSS)
+
+##Education
+---
+* **University:** Belarussian State University, faculty of Geography and Geoinformatics
+* **Courses:**
+    * Front-End Developer (SkillUp Minsk)
+    * HTML Academy
+    
+##English
+---
+[StreamLine Language School English test result](https://test.str.by/login/index.php): **Elementary (CEFR A2)**
