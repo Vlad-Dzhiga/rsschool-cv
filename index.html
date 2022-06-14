@@ -16,7 +16,7 @@
                     <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
                     <li class="nav-item"><a class="nav-link" href="#educ">Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#cod">Cod Example</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contat">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
                 </ul>
             </nav>
@@ -53,13 +53,14 @@
             <section class="cod-example">
                 <div>
                     <h2>Cod Example</h2>
+                    <a id = "cod"></a>
                     <code>
                         function strCount(x, y) {
                             let result = 0;
                             if (typeof x != "string" || typeof y != "string") {
                               return result;
                             }
-                            for (let index = 0; index < x.length; index++) {
+                            for (let index = 0; index &lt; x.length; index++) {
                               if (x[index] === y) {
                                 result++;
                               }
@@ -73,18 +74,19 @@
         <div class="contacts-skills">
             <section  class="contacts">
                 <div>
-                    <a name = "contact"></a>
+                  
                     <h2>Contacts</h2>
+                    <a id = "contact"></a>
                     <ul>
                         <li><span class="bold">Location:</span>Minsk, Belarus</li>
                         <li><span class="bold">Phone:</span> +375 33 330-89-81</li>
-                        <li><span class="bold">E-mail:</span>375333308981@yandex.by</li>
+                        <li><span class="bold">E-mail:</span>vlad123.by@gmail.com</li>
                         <li class="line-none"><span class="bold">GitHub:</span><a  href="https://github.com/Vlad-Dzhiga">Vlad-Dzhiga</a></li>
                         <li><span class="bold">Discord:</span>Vlad17(@Vlad-Dzhiga)</li>
                     </ul>
                 </div>
             </section>
-            <section class="skills"> <a name = "skill"></a>
+            <section class="skills"> <a id = "skill"></a>
                 <div>
                     <h2>Skills</h2>
                     <ul>
