@@ -159,19 +159,19 @@ header{
     margin: 0;
     padding-inline-start: 0;
 }
-footer {
+footer{
     width: 101%;
     background-color: white;
     height: 50px;
-    text-align: center;
-    display: block;
     position: relative;
+    text-align: center;
+}
+#gitLink{
+    height: 30px;
+    position: absolute;
+    left: 0;
 }
 
 footer img{
     height: 30px;
-    text-align: right;
-    position: absolute;
-    right: 0;
-
 }
