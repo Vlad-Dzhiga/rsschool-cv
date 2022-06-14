@@ -8,6 +8,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="avatarka_1.jpg" alt="Аватарка">
+    <div class="container">
+        <header>
+            <nav class="navigation">
+                <span class="logo-name">Hello!</span>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#educ">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cod">Cod Example</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contat">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section >
+            <div class="avatar-name">
+            <img src="image/Avatar.jpg" alt="My photo">
+            <h1>Vladislav Dzhiga</h1>
+        </div>
+        </section>
+        <section class ="about-me"> <a id ="about"></a>
+            <h2>About me</h2>
+            <p>
+                We all see ourselves as ideal, so write about communication skills, responsibility, etc. I will not, since this is a complete banal (if anything, then all this is in me). I want to note in myself a few things that I consider the most valuable: the desire to develop and not stand still, love for my Motherland and the desire to make it even better, I treat criticism adequately, because it allows you to grow and develop, the main thing is to stop talking and start acting.
+            </p>
+        </section>
+        <div class="education-experience">
+            <section  class="education">
+                <div>
+                    <a id = "educ"></a>
+                    <h2>Education</h2>
+                    
+                    <p>
+                        <span class="bold">University:</span> Belarussian State University, faculty of Geography and Geoinformatics
+                    </p>
+                    <p><span class="bold">Courses:</span>
+                    <ul>
+                        <li>Front-End Developer (SkillUp Minsk)</li>
+                        <li>HTML Academy</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="cod-example">
+                <div>
+                    <h2>Cod Example</h2>
+                    <code>
+                        function strCount(x, y) {
+                            let result = 0;
+                            if (typeof x != "string" || typeof y != "string") {
+                              return result;
+                            }
+                            for (let index = 0; index < x.length; index++) {
+                              if (x[index] === y) {
+                                result++;
+                              }
+                            }
+                            return result;
+                          }
+                    </code>
+                </div>
+            </section>
+        </div>
+        <div class="contacts-skills">
+            <section  class="contacts">
+                <div>
+                    <a name = "contact"></a>
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li><span class="bold">Location:</span>Minsk, Belarus</li>
+                        <li><span class="bold">Phone:</span> +375 33 330-89-81</li>
+                        <li><span class="bold">E-mail:</span>375333308981@yandex.by</li>
+                        <li class="line-none"><span class="bold">GitHub:</span><a  href="https://github.com/Vlad-Dzhiga">Vlad-Dzhiga</a></li>
+                        <li><span class="bold">Discord:</span>Vlad17(@Vlad-Dzhiga)</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="skills"> <a name = "skill"></a>
+                <div>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML (Basics)</li>
+                        <li>CSS (Basics)</li>
+                        <li>JavaScript (Basics)</li>
+                        <li>Git (remote service GitHub)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <span class="year">2022</span>
+        <a href="https://rs.school/js/" target="_blank"><img src="image/rs_school_js.svg" alt="rsschool"></a>
+    </footer>
+    </div>
 </body>
 </html>
