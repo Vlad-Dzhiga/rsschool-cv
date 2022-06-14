@@ -1,4 +1,190 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
-    background-color: aquamarine;
+    padding: 40px 5px;
+    background-color: #e9ccce;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 60%;
+    background-color: #ffffff;
+}
+header{
+    position: absolute;
+    width: 60%;
+    height: 80px;
+    color: black;
+    background-color: #ffffff;
+}
+.logo-name{
+    flex-basis: 15%;
+    font-family: "Grechen Fuemen", cursive;
+    text-align: left;
+}
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+    font-family: "Kaisei Tokumin", serif;
+    margin: 10px;
+    padding: 5px;
+}
+.nav-item :hover{
+    background-color: #e9ccce;
+    
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.nav-item a:hover{
+    color: brown;
+
+}
+.navigation{
+    display: flex;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
+.nav-menu {
+   
+    top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: 80%;
+  }
+  main{
+      width: 101%;
+      background-color: white;
+  }
+  
+.avatar-name{
+    padding-top: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+.avatar-name img{
+    width: 99%;
+}
+.avatar-name h1 {
+    font-family: "Grechen Fuemen", cursive;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 200%;
+    padding: 30px 0px;
+    margin: 0;
+}
+.about-me{
+  text-align: center;  
+}
+.about-me h2{
+    margin: 0;
+    display: block;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 600;
+}
+.about-me p {
+    line-height: 25px;
+    padding: 0 30px;
+}
+.education-experience {
+    display: flex;
+    
+}
+.education-experience h2{
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 600;
+}
+.bold {
+    font-weight: bold;
+}
+.education{
+    width: 50%;
+    padding: 0 30px 0 30px;
+    line-height: 25px;
+    text-align: right;
+}
+.education p {
+    margin: 0;
+}
+.education li {
+    list-style-type: none;
+}
+.cod-example{
+    padding: 0 30px 0 30px;
+    width: 50%;
+    text-align: left;
+}
+.contacts-skills {
+    display: flex;
+}
+.contacts-skills  h2{
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 600;
+}
+.contacts {
+    width: 50%;
+    padding: 0 30px 0 30px;
+    text-align: right;
+    line-height: 25px;
+}
+
+.contacts li{
+    list-style-type: none;
+}
+.line-none a{
+    text-decoration: none;
+}
+.skills{
+    padding: 0 30px 0 30px;
+    width: 50%;
+    text-align: left;
+    line-height: 25px;
+}
+.skills li{
+    list-style-type: none;
+}
+.skills ul{
+    margin: 0;
+    padding-inline-start: 0;
+}
+footer{
+    width: 101%;
+    background-color: white;
+    height: 50px;
+    position: relative;
+    text-align: center;
+}
+#gitLink{
+    height: 30px;
+    position: absolute;
+    left: 0;
+}
+
+#rssLink {
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+.myProgect {
+    font-weight: 700;
+    
+}
+.myProgect a {
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 50%;
 }
