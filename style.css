@@ -172,6 +172,19 @@ footer{
     left: 0;
 }
 
-footer img{
+#rssLink {
     height: 30px;
+    position: absolute;
+    right: 0;
+}
+.myProgect {
+    font-weight: 700;
+    
+}
+.myProgect a {
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 50%;
 }
